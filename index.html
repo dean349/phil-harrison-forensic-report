@@ -69,44 +69,50 @@
       margin-bottom: 4px;
     }
     
-    /* Top Navigation inside hero */
+    /* Top Navigation inside hero (TABS) */
     .top-nav {
-      margin-top: 30px;
+      margin-top: 40px;
       display: flex;
       flex-direction: column;
-      gap: 12px;
+      gap: 8px;
       justify-content: center;
-      max-width: 800px;
+      max-width: 900px;
       margin-left: auto;
       margin-right: auto;
+      background: rgba(0,0,0,0.25);
+      border-radius: 12px;
+      padding: 8px;
+      border: 1px solid rgba(255,255,255,0.05);
     }
     @media(min-width: 768px) {
       .top-nav {
         flex-direction: row;
+        gap: 0;
       }
     }
     .top-nav-link {
-      background: rgba(255, 255, 255, 0.1);
-      color: var(--white);
+      flex: 1;
+      background: transparent;
+      color: rgba(255, 255, 255, 0.7);
       text-decoration: none;
-      font-weight: 600;
-      padding: 14px 20px;
+      font-weight: 700;
+      padding: 18px 20px;
       border-radius: 8px;
-      transition: all 0.25s ease;
-      border: 1px solid rgba(255,255,255,0.2);
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      border: none;
       text-align: center;
-      font-size: 0.95rem;
+      font-size: 1.15rem;
+      letter-spacing: 0.02em;
+      position: relative;
     }
     .top-nav-link:hover {
-      background: rgba(255, 255, 255, 0.15);
-      border-color: rgba(255,255,255,0.4);
-      transform: translateY(-2px);
+      color: var(--white);
+      background: rgba(255, 255, 255, 0.1);
     }
     .top-nav-link.active {
       background: var(--gold);
       color: var(--navy);
-      border-color: var(--gold);
-      box-shadow: 0 4px 15px rgba(201, 149, 42, 0.4);
+      box-shadow: 0 4px 20px rgba(201, 149, 42, 0.5);
     }
     
     @media(min-width: 850px) {
@@ -340,19 +346,19 @@
     </aside>
     
     <main class="content" id="report-content">
-      <h1>🔍 THE DEFINITIVE FORENSIC INVESTIGATION REPORT</h1>
-<h2>Target Entities: Wincham Accountants Limited &amp; Adrem Accounting Ltd</h2>
-<h3>Prepared For: Phil Harrison's Affairs (Los Romeros Limited / Lanzarote Property)</h3>
-<h3>Classification: Private &amp; Confidential | 28 March 2026</h3>
+      <h1 id="the-definitive-forensic-investigation-report">🔍 THE DEFINITIVE FORENSIC INVESTIGATION REPORT</h1>
+<h2 id="target-entities-wincham-accountants-limited-adrem-accounting-ltd">Target Entities: Wincham Accountants Limited &amp; Adrem Accounting Ltd</h2>
+<h3 id="prepared-for-phil-harrisons-affairs-los-romeros-limited-lanzarote-property">Prepared For: Phil Harrison's Affairs (Los Romeros Limited / Lanzarote Property)</h3>
+<h3 id="classification-private-confidential-28-march-2026">Classification: Private &amp; Confidential | 28 March 2026</h3>
 <hr />
 <blockquote class="alert caution"><strong>🚨 CAUTION</strong><br/>
 <strong>Executive Conclusion &amp; Bottom-Line Verdict:</strong> 
 The "Wincham Group" operates a vertically integrated mass-production corporate services model. The core tax mitigation scheme they sold you (using a UK Limited Company to hold a Spanish property) has been <strong>publicly condemned by the Spanish Tax Office</strong> and prominent legal firms in Spain as potentially constituting tax evasion. Their corporate structure is heavily reliant on nominee directors handling hundreds of companies, and their public reputation features consistent employee and client complaints regarding opaque fees, administrative delays, and "corporate bullying." The company has taken visible steps to distance itself from its Spanish property business, suggesting awareness of regulatory risk. Your funds are now in the UK and must be protected immediately from unwarranted "exit fees."</p>
 </blockquote>
 <hr />
-<h2>SECTION 1 — THE FULL WINCHAM CORPORATE EMPIRE &amp; IDENTITY</h2>
+<h2 id="section-1-the-full-wincham-corporate-empire-identity">SECTION 1 — THE FULL WINCHAM CORPORATE EMPIRE &amp; IDENTITY</h2>
 <p>This is not simply an accounting firm. It is a vertically integrated corporate services group with at least <strong>8 distinct legal entities</strong>, <strong>5 dedicated websites</strong>, <strong>2 Spanish offices</strong>, and a history spanning over 30 years of aggressively marketing tax mitigation structures that have repeatedly attracted negative legal and media scrutiny.</p>
-<h3>1.1 — Complete Entity Map</h3>
+<h3 id="11-complete-entity-map">1.1 — Complete Entity Map</h3>
 <div class="table-wrapper"><table>
 <thead>
 <tr>
@@ -407,10 +413,10 @@ The "Wincham Group" operates a vertically integrated mass-production corporate s
 <p><strong>Entity Evidence Links:</strong> 
 * 🔗 <a href="https://find-and-update.company-information.service.gov.uk/company/05607266">Wincham Accountants Limited (Companies House)</a>
 * 🔗 <a href="https://find-and-update.company-information.service.gov.uk/company/05984803">Adrem Accounting Ltd (Companies House)</a></p>
-<h3>1.2 — "The Secretary Shuffle" &amp; Nature of Business</h3>
+<h3 id="12-the-secretary-shuffle-nature-of-business">1.2 — "The Secretary Shuffle" &amp; Nature of Business</h3>
 <p>It is a standard Wincham practice to cycle the "Company Secretary" title on their clients' companies between their own internal corporate entities. For example, Los Romeros Limited had its secretary changed from <em>Wincham Accountancy Limited</em> to <em>Adrem Accounting Ltd</em> in September 2025. This was merely transferring the nameplate from one desk to another within the same operation to obfuscate administration. </p>
 <p>While Adrem holds the official SIC code for "Accounting and auditing", Wincham Accountants' SIC code is for "Other business support services". They operate primarily as a corporate administrator, not solely as a traditional accounting practice.</p>
-<h3>1.3 — Website Network &amp; Physical Offices</h3>
+<h3 id="13-website-network-physical-offices">1.3 — Website Network &amp; Physical Offices</h3>
 <p>Wincham operates an unusually extensive web property network indicating a sophisticated marketing funnel:
 *   <strong>wincham.com</strong> (Main corporate website) — 🔗 <em><a href="https://www.wincham.com">Visit site</a></em>
 *   <strong>winchamiht.com</strong> (Dedicated Spanish IHT evasion scheme marketing) — 🔗 <em><a href="http://www.winchamiht.com">Visit site</a></em>
@@ -425,62 +431,62 @@ The existence of a <strong>dedicated IHT scheme marketing website (winchamiht.co
 *   <strong>Spain (Alicante):</strong> Calpe, 03710, Alicante, Costa Blanca, Spain
 *   <strong>Spain (Marbella):</strong> Avda Ricardo Soriano 72, Portal B, Planta 1a, Marbella, 29601</p>
 <hr />
-<h2>SECTION 2 — THE SCHEME: WHAT IT WAS AND WHY IT'S LEGALLY TOXIC</h2>
+<h2 id="section-2-the-scheme-what-it-was-and-why-its-legally-toxic">SECTION 2 — THE SCHEME: WHAT IT WAS AND WHY IT'S LEGALLY TOXIC</h2>
 <p>The central reason you engaged them is the root of the firm's largest controversy. Since at least 1994, Wincham aggressively marketed a specific tax structure: <strong>Transferring Spanish villas into UK Limited Companies.</strong></p>
-<h3>2.1 — The Promise Made to you</h3>
+<h3 id="21-the-promise-made-to-you">2.1 — The Promise Made to you</h3>
 <p>The marketing pitch across all Wincham websites and promotional material was:</p>
 <blockquote>
 <p><em>"Spanish Inheritance Tax (IHT) rates for non-residents are punishing. By placing your Spanish property inside a UK Limited Company, your heirs inherit UK shares, not Spanish bricks. UK inheritance passes under UK IHT rules. You save a fortune."</em></p>
 </blockquote>
-<h3>2.2 — Why Spanish Authorities Ruled It Unlawful</h3>
+<h3 id="22-why-spanish-authorities-ruled-it-unlawful">2.2 — Why Spanish Authorities Ruled It Unlawful</h3>
 <p>The Agencia Tributaria (AEAT) and Spain's General Directorate of Taxes (DGT) explicitly ruled against this <em>(🔗 Reference: <a href="https://sede.agenciatributaria.gob.es/Sede/en_gb/inicio.html">Agencia Tributaria - Spanish Tax Office</a>)</em>:
 1.  <strong>Shell Companies Are Disregarded:</strong> A UK company that has no genuine economic activity beyond holding one residential property has no "substance." Spanish authorities "look through" the wrapper and treat the underlying asset as Spanish property held directly by the beneficial owner.
 2.  <strong>"Piercing the Corporate Veil":</strong> Deliberately hiding Spanish assets inside shell companies directly contravenes Spanish tax law and can cross the line from tax avoidance into evasion.
 3.  <strong>Criminal Threshold:</strong> Where the tax evaded exceeds <strong>€120,000</strong>, the matter escalates from tax avoidance to <strong>criminal tax fraud</strong>.
 4.  <strong>Post-Brexit Hardening:</strong> Since January 2021, UK companies are treated as <strong>third-country</strong> entities in Spain, attracting higher CGT rates and stricter scrutiny.</p>
-<h3>2.3 — Who Has Publicly Warned Against This Scheme</h3>
+<h3 id="23-who-has-publicly-warned-against-this-scheme">2.3 — Who Has Publicly Warned Against This Scheme</h3>
 <ul>
 <li><strong>Lawbird Legal Services (Marbella):</strong> Explicitly named "the Wincham scheme," stating it is "not lawful for the purpose of avoiding Spanish IHT" and crosses into tax evasion.</li>
 <li><strong>The Olive Press:</strong> English-language newspaper in Spain heavily covered the controversy, dismissing Wincham's "right of reply" defenses. <em>(🔗 Reference: <a href="https://theolivepress.es">The Olive Press</a>)</em></li>
 <li><strong>Other Legal Firms:</strong> Buckles Law, Blevins Franks, Del Canto Chambers, and Lexland have all flagged the "look-through" risk, CRS (Common Reporting Standard) information-sharing implications, and HMRC "nudge letter" risks.</li>
 </ul>
 <hr />
-<h2>SECTION 3 — FULL DIRECTORY OF NAMED INDIVIDUALS ("THE DIRT")</h2>
-<h3>3.1 — Malcolm David Roach (The Patriarch)</h3>
+<h2 id="section-3-full-directory-of-named-individuals-the-dirt">SECTION 3 — FULL DIRECTORY OF NAMED INDIVIDUALS ("THE DIRT")</h2>
+<h3 id="31-malcolm-david-roach-the-patriarch">3.1 — Malcolm David Roach (The Patriarch)</h3>
 <p>Founder and original operator of the Wincham Group. Was the <strong>founding nominee director of Los Romeros Limited upon incorporation in August 2009.</strong> His company <em>Marbella Property Limited</em> suggests direct commercial involvement in the Spanish property market. He is progressively withdrawing from PSC roles, passing control to his son Mark.</p>
-<h3>3.2 — Mark Damion Roach (The Current Operator)</h3>
+<h3 id="32-mark-damion-roach-the-current-operator">3.2 — Mark Damion Roach (The Current Operator)</h3>
 <p>Managing Director of Wincham International Limited. Was a <strong>nominal transition director of Los Romeros Limited from 7 October 2019 to 9 January 2020.</strong> His brief appearance as a director of Los Romeros is textbook Wincham methodology — insert an internal director to push paperwork through, then exit. <em>Crucially, his directorship coincided with the allotment of new share capital (£159,636).</em></p>
-<h3>3.3 — Jon Antony Hallatt (The "Serial Nominee")</h3>
+<h3 id="33-jon-antony-hallatt-the-serial-nominee">3.3 — Jon Antony Hallatt (The "Serial Nominee")</h3>
 <p>Former director of both Wincham and Adrem. Holds <strong>over 180 distinct corporate appointments</strong> on Companies House. His function is purely infrastructural, satisfying the legal requirement for a named officer while the Wincham machine processes paperwork. He provides zero governance or oversight.
 <em>(🔗 Evidence: <a href="https://find-and-update.company-information.service.gov.uk/officers/v-cT85h-J1K96K6Q5jF5Y4hP4qM/appointments">Jon Antony Hallatt - Companies House Appointments</a>)</em></p>
-<h3>3.4 — Lucinda Jane Hallatt (Related Party)</h3>
+<h3 id="34-lucinda-jane-hallatt-related-party">3.4 — Lucinda Jane Hallatt (Related Party)</h3>
 <p>Former director and secretary across multiple Wincham entities. Her presence demonstrates how closely held and insular this operation is, keeping governance within a very tight circle of family and associates.</p>
-<h3>3.5 — Michael Ball, BSc, FCA (The Credentialled Face)</h3>
+<h3 id="35-michael-ball-bsc-fca-the-credentialled-face">3.5 — Michael Ball, BSc, FCA (The Credentialled Face)</h3>
 <p>Managing Director of Wincham Accountants Limited. A Chartered Accountant (FCA) who provides the binding professional obligation to the ICAEW. If a formal complaint is made about the firm's conduct or failure to advise on material legal risks, Michael Ball is the named member whose personal professional reputation and licence would be on the line.
 <em>(🔗 Evidence: <a href="https://find.icaew.com/search/all/all/all/all/all/all?q=Michael+Ball">ICAEW Member Directory for Michael Ball</a>)</em></p>
-<h3>3.6 — Leonard Edward Jones (Adrem's ICAEW-Regulated Director)</h3>
+<h3 id="36-leonard-edward-jones-adrems-icaew-regulated-director">3.6 — Leonard Edward Jones (Adrem's ICAEW-Regulated Director)</h3>
 <p>Director of Adrem Accounting Ltd. Adrem is registered as an <strong>ICAEW Authorised Corporate Service Provider (ACSP)</strong>, meaning it is officially authorised to perform identity verification services for Companies House. Leonard Jones faces immediate regulatory scrutiny if maladministration of Los Romeros is formally complained about.</p>
-<h3>3.7 — Felix Muelas (The Spanish Lawyer in the Machine)</h3>
+<h3 id="37-felix-muelas-the-spanish-lawyer-in-the-machine">3.7 — Felix Muelas (The Spanish Lawyer in the Machine)</h3>
 <p>Abogado based at Wincham's Calpe office. Handles the Spanish legal work (Notaries, CIF numbers, Agencia Tributaria filings). If he advised the Harrison family that the UK Ltd structure was legally sound for Spanish IHT avoidance — contrary to published AEAT guidance — he may face professional liability with the Colegio de Abogados de Alicante.</p>
 <hr />
-<h2>SECTION 4 — REPUTATION, REVIEWS &amp; COMPLAINTS</h2>
-<h3>4.1 — Employee Reviews: "Corporate Bullying"</h3>
+<h2 id="section-4-reputation-reviews-complaints">SECTION 4 — REPUTATION, REVIEWS &amp; COMPLAINTS</h2>
+<h3 id="41-employee-reviews-corporate-bullying">4.1 — Employee Reviews: "Corporate Bullying"</h3>
 <p>The internal culture of the Wincham Group is exceptionally poorly reviewed by former staff on Glassdoor and Indeed <em>(🔗 Evidence: <a href="https://uk.indeed.com/cmp/Wincham-Accountants-Ltd/reviews">Indeed Employee Reviews</a>)</em>:
 *   <strong>Consistently Rated 1/5 or 2/5:</strong> Former staff describe a "highly stressful" environment.
 *   <strong>"Corporate Bullying":</strong> Multiple independent reviewers explicitly cite "corporate bullying" and "verbal abuse" from the management team.
 *   <strong>Hostile Workplace:</strong> Employees describe careers stalling unless they blindly comply with chaotic owner demands. This high turnover and miserable environment directly leads to mistakes on client files.</p>
-<h3>4.2 — Client Complaints &amp; Trustpilot</h3>
+<h3 id="42-client-complaints-trustpilot">4.2 — Client Complaints &amp; Trustpilot</h3>
 <p>Wincham holds a <strong>"Poor" rating of 2.0/5</strong> on Trustpilot. For a 30-year-old company claiming thousands of clients, having only 17 reviews shows active digital footprint scrubbing or avoidance of feedback channels. <em>(🔗 Evidence: <a href="https://uk.trustpilot.com/review/www.wincham.com">Wincham Trustpilot Reviews</a>)</em> Complaints center on:
 *   <strong>Opaque Fees:</strong> Clients routinely complain about hidden billing structures and unexpected administrative charges.
 *   <strong>Communication Failures:</strong> Slow, unresponsive support, particularly when a client wants to leave.</p>
-<h3>4.3 — The "Extraction Trap" &amp; Fee Gouging Risk</h3>
+<h3 id="43-the-extraction-trap-fee-gouging-risk">4.3 — The "Extraction Trap" &amp; Fee Gouging Risk</h3>
 <p>The most common and relevant complaint is how incredibly difficult and expensive it is to <strong>extract funds or properties from the structure once the client wants to leave.</strong> Wincham's structures are trivially easy to enter but complex and expensive to exit.
 Clients report unexpected "exit fees," refusal to release company documents without full payment of disputed invoices, and fees for internal administrative reshuffles (like the Secretary Shuffle). </p>
 <blockquote class="alert warning"><strong>⚠️ WARNING</strong><br/>
 <strong>The moment of greatest risk is NOW.</strong> With the property sold and a large cash balance sitting in Los Romeros Limited, Wincham/Adrem will be aware that fees are collectible. They retain the "Company Secretary" role, meaning they have standing to raise invoices.</p>
 </blockquote>
 <hr />
-<h2>SECTION 5 — REGULATORY STATUS CHECK</h2>
+<h2 id="section-5-regulatory-status-check">SECTION 5 — REGULATORY STATUS CHECK</h2>
 <div class="table-wrapper"><table>
 <thead>
 <tr>
@@ -518,7 +524,7 @@ Clients report unexpected "exit fees," refusal to release company documents with
 </tbody>
 </table></div>
 <hr />
-<h2>SECTION 6 — WHAT WINCHAM DID NOT TELL you &amp; THE FINANCIAL DAMAGE</h2>
+<h2 id="section-6-what-wincham-did-not-tell-you-the-financial-damage">SECTION 6 — WHAT WINCHAM DID NOT TELL you &amp; THE FINANCIAL DAMAGE</h2>
 <p>Wincham's marketing actively misrepresented or failed to disclose material facts, leading to calculable financial damage:
 *   <strong>Spanish IHT effectiveness:</strong> They pitched it as a shield, but AEAT ruled it ineffective and potentially tax evasion.
 *   <strong>Annual compliance obligations:</strong> Los Romeros must annually file Modelo 210 "deemed income" returns.
@@ -526,27 +532,27 @@ Clients report unexpected "exit fees," refusal to release company documents with
 *   <strong>CRS / HMRC nudge letter risk:</strong> Under the Common Reporting Standard, Spain reports beneficial ownership to HMRC automatically, creating exposure.
 *   <strong>Nominee directorships:</strong> The insertion of an employee as a director means no one with actual knowledge governed the company.</p>
 <hr />
-<h2>SECTION 7 — THE LEGAL "MEAT SHIELD" &amp; LACK OF PUBLIC PROSECUTIONS</h2>
+<h2 id="section-7-the-legal-meat-shield-lack-of-public-prosecutions">SECTION 7 — THE LEGAL "MEAT SHIELD" &amp; LACK OF PUBLIC PROSECUTIONS</h2>
 <p>Despite the controversy surrounding the Wincham Group, extensive searches of UK legal records (High Court, Employment Tribunals, ICAEW/FCA disciplinary logs) and Spanish tax/legal databases reveal <strong>zero public records of formal final judgements, criminal prosecutions, or regulatory disciplinary actions</strong> against Wincham Accountants Limited, Adrem Accounting Ltd, Malcolm Roach, or Mark Roach.</p>
-<h3>7.1 — How the Firm Offloads Risk</h3>
+<h3 id="71-how-the-firm-offloads-risk">7.1 — How the Firm Offloads Risk</h3>
 <p>This lack of a public rap sheet is a direct result of how the firm structurally offloads risk:
 *   <strong>The Client Carries 100% of the Legal Risk:</strong> Wincham acts merely as an administrative service provider. If the Spanish Tax Office investigates a property in a UK Limited Company, they prosecute <strong>the beneficial owner</strong> for tax evasion, not the accounting firm in Cheshire that processed the paperwork. 
 *   <strong>The "Dirty Hands" Deterrent:</strong> Clients caught in this tax scheme are highly unlikely to launch a public UK lawsuit because doing so requires admitting they bought into an offshore tax mitigation structure. To avoid public scrutiny, clients typically pay the Spanish fines quietly.
 *   <strong>The Exit Fee Leverage:</strong> Suing a UK accounting firm over Spanish tax law is incredibly complex and expensive. When clients want out, it is far cheaper to simply pay Wincham's steep "exit fees" to recover their property and walk away, rather than spending tens of thousands on cross-border litigation.</p>
-<h3>7.2 — Secret Out-of-Court Settlements &amp; The "Michael Harper" Precedent</h3>
+<h3 id="72-secret-out-of-court-settlements-the-michael-harper-precedent">7.2 — Secret Out-of-Court Settlements &amp; The "Michael Harper" Precedent</h3>
 <p>While there are no public final judgements, Wincham <em>has</em> been sued for professional negligence regarding this exact scheme. A barrister named Michael Harper (Crown Office Chambers) has successfully represented claimants against Wincham International in cases such as <em>Vilintone &amp; ors v Wincham International</em> and <em>Bushwood v Wincham International</em>.</p>
 <blockquote class="alert important"><strong>⚠️ IMPORTANT</strong><br/>
 Because these cases have no published EWHC (England and Wales High Court) judgments, it heavily indicates that <strong>Wincham's Professional Indemnity (PI) Insurers settled the claims out of court</strong> to prevent a public legal precedent that would trigger a flood of litigation from other clients. This "hidden" precedent is your primary leverage.</p>
 </blockquote>
 <p>The absence of court judgments does not make the scheme safe — it just confirms that Wincham is highly effective at ensuring the client bears the legal consequences, and when caught, they settle quietly.</p>
 <hr />
-<h2>SECTION 8 — POST-SALE LEGAL RISK &amp; THE FOOLPROOF SOLUTION</h2>
+<h2 id="section-8-post-sale-legal-risk-the-foolproof-solution">SECTION 8 — POST-SALE LEGAL RISK &amp; THE FOOLPROOF SOLUTION</h2>
 <p>Now that the Lanzarote property has been sold and the funds repatriated to the UK, the "danger phase" is largely over. However, strict adherence to legal procedure is still required to fully insulate the beneficial owner from residual liability.</p>
-<h3>8.1 — The Remaining Spanish Tax Liability</h3>
+<h3 id="81-the-remaining-spanish-tax-liability">8.1 — The Remaining Spanish Tax Liability</h3>
 <p>Even though the money is safe in the UK, the Spanish Capital Gains Tax (Modelo 210) must still be paid by the deadline (approx. 20 July 2026).
 *   <strong>Cross-Border Enforcement:</strong> The UK and Spain hold mutual assistance treaties (OECD). The Spanish Tax Authority (AEAT) can legally ask HMRC to pursue tax debts inside the UK.
 *   <strong>The False Declaration Risk:</strong> To extract the remaining profit from the UK company, the director must sign a "Declaration of Solvency" to initiate a Members' Voluntary Liquidation (MVL). Swearing under oath that the company can pay its debts while intentionally ignoring a foreign tax bill is a criminal offence under the UK Insolvency Act.</p>
-<h3>8.2 — The Foolproof Path to "Zero Legal Risk"</h3>
+<h3 id="82-the-foolproof-path-to-zero-legal-risk">8.2 — The Foolproof Path to "Zero Legal Risk"</h3>
 <p>Because Los Romeros Limited never traded and only held the property, it is a very "clean" company. The path to complete, 100% legal insulation is:
 1.  <strong>Keep the funds safe</strong> in the UK Company Account (sole signatory control).
 2.  <strong>Pay the Spanish CGT</strong> via an independent, reputable Spanish gestoria before July 20th.
@@ -555,27 +561,27 @@ Because these cases have no published EWHC (England and Wales High Court) judgme
 5.  <strong>Liquidate correctly:</strong> The Liquidator officially closes Los Romeros Limited and transfers the remaining profit to Phil Harrison as a highly tax-efficient capital distribution.</p>
 <p>Once this process is followed, Phil Harrison is completely protected, and Wincham/Adrem have zero leverage, zero control, and zero legal recourse against the funds.</p>
 <hr />
-<h2>SECTION 9 — IMMEDIATE PRIORITY ACTION PLAN FOR PHILIP HARRISON</h2>
-<h3>🔴 DO THIS TODAY</h3>
+<h2 id="section-9-immediate-priority-action-plan-for-philip-harrison">SECTION 9 — IMMEDIATE PRIORITY ACTION PLAN FOR PHILIP HARRISON</h2>
+<h3 id="do-this-today">🔴 DO THIS TODAY</h3>
 <ol>
 <li><strong>Fire Them Immediately:</strong> Now that the Lanzarote property has sold and the funds are repatriated, there is absolutely zero reason for Adrem or Wincham to remain involved.</li>
 <li><strong>Lock down the Los Romeros bank account:</strong> Ensure Phil Harrison is the <em>only</em> person who can authorise transfers. Revoke any banking mandates or third-party authorities for Wincham/Adrem immediately so they cannot auto-deduct "exit fees."</li>
 <li><strong>Do not pay any Wincham/Adrem invoice:</strong> Any "exit fee" must be scrutinised by an independent solicitor before payment.</li>
 </ol>
-<h3>🟠 THIS WEEK</h3>
+<h3 id="this-week">🟠 THIS WEEK</h3>
 <ol>
 <li><strong>Write formally to Adrem Accounting Ltd:</strong> Request the immediate release of all company statutory books, formation documents, minute books, share certificates, and a full historical fee ledger for Los Romeros Limited since 2009.</li>
 <li><strong>Instruct an independent Liquidator (IP):</strong> Los Romeros Limited must be closed down via a Members' Voluntary Liquidation (MVL). <strong>Do not use a liquidator recommended by Wincham or Adrem.</strong> Find your own via the R3 register to ensure Wincham cannot hide historical anomalies.</li>
 <li><strong>File the Modelo 210 (Spanish CGT return):</strong> Ensure this is filed via an independent Spanish gestoria before <strong>20 July 2026</strong>. Do not use Wincham's Calpe office.</li>
 </ol>
-<h3>🟡 THIS MONTH</h3>
+<h3 id="this-month">🟡 THIS MONTH</h3>
 <ol>
 <li><strong>Initiate Professional Negligence Claim:</strong> Once the files are secured from Adrem, issue a formal <strong>Pre-Action Protocol Letter of Claim</strong> using the draft in the recovery strategy file. Reference the <em>Vilintone v Wincham</em> precedent to signal to their PI Insurers that you know they settle these cases privately.</li>
 <li><strong>ICAEW Complaint:</strong> If you was never warned the scheme was ruled unlawful by AEAT, this constitutes grounds for a formal misconduct complaint against Michael Ball (FCA) and Leonard Jones (Adrem ACSP). <em>(🔗 Reference: <a href="https://www.icaew.com/regulation/complaints-process">ICAEW Complaints Process</a>)</em></li>
 <li><strong>Engage a STEP-qualified UK Solicitor:</strong> Advise on UK IHT planning now that you holds significant liquid capital in the UK.</li>
 </ol>
 <hr />
-<h2>SECTION 10 — EVIDENCE &amp; REFERENCE LINKS</h2>
+<h2 id="section-10-evidence-reference-links">SECTION 10 — EVIDENCE &amp; REFERENCE LINKS</h2>
 <p><strong>Corporate &amp; Regulatory Links:</strong>
 *   <a href="https://find-and-update.company-information.service.gov.uk/company/05607266">Wincham Accountants Limited (Companies House)</a>
 *   <a href="https://find-and-update.company-information.service.gov.uk/company/05984803">Adrem Accounting Ltd (Companies House)</a>
